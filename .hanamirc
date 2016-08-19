@@ -1,0 +1,4 @@
+project=static_path_test
+architecture=container
+test=minitest
+template=erb
