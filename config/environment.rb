@@ -16,5 +16,7 @@ Hanami::Container.configure do
   # If changed to '/', the js file will be loaded from 'web' app
   mount Another::Application, at: '/'
 
+  # NOTE 3.
+  # This line is commented in both note 1 & 2, for clarity
   # mount Web::Application, at: '/'
 end
